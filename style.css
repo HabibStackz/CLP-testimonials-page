@@ -1,0 +1,33 @@
+body {
+    font-family: 'Centrale Sans Regular', sans-serif;
+}
+.welcome-text {
+    font-size: 0.8rem;
+}
+
+.testimonial-card {
+    margin-bottom: 20px;
+}
+
+/* Set a maximum height for the carousel images */
+.carousel-inner img {
+    max-height: 30rem;
+    object-fit: cover;
+    margin: 0 auto; 
+}
+
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.social-icons a {
+    color: #f26522;
+    margin-left: 15px;
+    font-size: 0.9rem;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
