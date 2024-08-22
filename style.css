@@ -2,7 +2,7 @@ body {
     font-family: 'Centrale Sans Regular', sans-serif;
 }
 .welcome-text {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .testimonial-card {
@@ -19,13 +19,13 @@ body {
 .top-bar {
     background-color: #000;
     color: #fff;
-    padding: 10px 0;
+    padding: 2px 0;
 }
 
 .social-icons a {
     color: #f26522;
-    margin-left: 15px;
-    font-size: 0.9rem;
+    margin-left: 20px;
+    font-size: 0.8rem;
 }
 
 .social-icons a:hover {
