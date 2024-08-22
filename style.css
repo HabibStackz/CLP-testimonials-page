@@ -31,3 +31,9 @@ body {
 .social-icons a:hover {
     color: #ddd;
 }
+
+.fellow-btn {
+    background-color: #f26522;
+    color: #fff;
+}
+
