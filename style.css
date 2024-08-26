@@ -37,3 +37,50 @@ body {
     color: #fff;
 }
 
+/* Apply box shadow to all cards */
+.testimonial-card .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow changes */
+}
+
+/* Increase the shadow on hover */
+.testimonial-card .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* Adjustments for responsive layout */
+@media (max-width: 767.98px) {
+    .logo img {
+        max-width: 150px;
+    }
+
+    .testimonials-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-button a {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo img {
+        max-width: 200px;
+    }
+
+    .testimonials-header h2 {
+        font-size: 2rem;
+    }
+
+    .cta-button a {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
