@@ -48,6 +48,30 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
+#mc_embed_signup {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#mc_embed_signup h2 {
+    margin-bottom: 20px;
+}
+
+#mc-embedded-subscribe {
+    background-color: #f26522;
+    border-color: #f26522;
+    color: #fff;
+    font-weight: bold;
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+
 .footer {
     background-color: #000;
     color: #fff;
